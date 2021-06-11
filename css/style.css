@@ -3,3 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: lightgray;
+}
+
+#container{
+    margin: 0 auto;
+    width: 1000px;
+    background-color: white;
+}
+
+.album{
+    display: inline-block;
+    width: 30%;
+    margin-left: 22.5px;
+}
+
+.image{  
+    width: 300px;
+}
+
+.image img{
+    width: 100%;
+}
+
+
