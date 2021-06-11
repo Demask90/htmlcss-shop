@@ -19,14 +19,14 @@
     position: relative;
 }
 
-.image img{
+.change img{
     width: 100%;
 }
 
 .heart{
     position: absolute;
     padding: 15px;
-    font-size: 120%;
+    font-size: 150%;
     background-color: white;
     top: 20px;
     right: 0;
@@ -53,18 +53,30 @@
     z-index: 2;
 }
 
-.levis {
+.sostenibility.left{
+    left: 0;
+}
+
+.color-money{
+    color: red;
+}
+
+.line-discount{
+    text-decoration: line-through;
+}
+
+.change {
     width: 100%;
     position: relative;
     display: inline-block;
 }
-.levis .second-image {
+.change .second-image {
     display: none;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 1;
 }
-.levis:hover .second-image {
+.change:hover .second-image {
     display: inline-block;
 }
